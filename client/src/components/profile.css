@@ -1,0 +1,87 @@
+#outer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+#picture {
+    border: 1px solid;
+    height: 350px;
+    width: 300px;
+}
+
+#name {
+    left: 41%;
+}
+
+#designation {
+    background-color: rgb(11, 188, 11);
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+    width: fit-content;
+}
+
+#center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* Align items to the top */
+    min-width: 50%;
+    border: 1px solid black;
+    padding: 50px;
+    margin-left: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Added box shadow */
+}
+
+label {
+    font-size: 20px;
+    width: 100%;
+}
+
+input {
+    padding-bottom: 5px;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 0px;
+    flex-direction: column;
+}
+
+#right-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right h5 {
+    color: gray;
+}
+
+button {
+    background: #008CBA;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005080;
+}

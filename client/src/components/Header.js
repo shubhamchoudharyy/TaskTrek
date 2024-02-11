@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import {styled} from 'styled-components'
 
 const Header=()=> {
@@ -11,7 +12,8 @@ const Header=()=> {
                 <Item><span>Events</span></Item>
                 <Item><span>Teachers</span></Item>
                 <Item><span>Students</span></Item>
-                <Item><span>Manage</span></Item>
+                  <Item><span><Link to="/manage" >Manage</Link></span></Item>
+                  
             </Navbar>
         </Nav>
     </Container>
